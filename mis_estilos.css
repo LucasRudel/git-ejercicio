@@ -1,0 +1,83 @@
+.rojo {
+    background-color: red;
+}
+.verde {
+    background-color: lime;
+    border: 1px solid orange;
+}
+.azul {
+    background-color: blue;
+}
+.celeste {
+    background-color: lightblue;
+}
+.violeta {
+    background-color: purple;
+}
+.naranja {
+    background-color: orange;
+}
+.amarillo {
+    background-color: yellow;
+}
+img {
+    height: auto;
+    width: 200px;
+}
+
+#logo {
+    max-width: 20%;
+    float: right;
+}
+
+#avatar {
+        /* cambia estos dos valores para definir el tamaño de tu círculo */
+        height: 300px;
+
+        /* los siguientes valores son independientes del tamaño del círculo */
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-radius: 50%;
+        background-size: 100% auto;
+
+}
+
+.centrar_contenido {
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+.proyecto div {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.proyecto img {
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+form {
+    padding: 30px;
+}
+
+label {
+    display: flex;
+    justify-content: start;
+}
+
+.masthead-avatar {
+    width: 15rem;
+}
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
